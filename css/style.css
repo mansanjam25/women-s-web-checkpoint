@@ -211,3 +211,17 @@ footer{
     background: rgb(219, 215, 215);
     line-height: 1.5;
 }
+
+@media only screen and (max-width: 480px){
+    main{
+        margin: 10px;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 30px;
+        padding: 10px;
+    }
+}
