@@ -433,17 +433,23 @@ footer{
         grid-row: 2;
         }
 }
+
 @media screen and (prefers-reduced-motion: reduce){
     html{
               scroll-behavior: auto; 
     }
-          
+
     a.skip {
               -webkit-transition: initial; 
               transition: initial; 
     }
 
-    .intro{
+    .title{
               background-attachment: initial;
     }
+
+    .title h1{
+        animation: none !important;
+    }
+
 }
